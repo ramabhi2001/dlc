@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.slice h1 {
+  font-size: 40px;
+  margin-top: 70px;
+  font-weight: 700px;
+  line-height: 1.5;
+  color: #212529;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.slice {
+  text-align: center;
+  padding: 25px;
+}
+.slice a {
+  color: #cc0000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.News a {
+  width: 50px;
+  height: 70px;
+}
+.image {
+  height: auto;
+  width: 400px;
+  margin: auto;
+  padding-top: 25px;
+}
+.slick-prev:before {
+  color: black;
+}
+.slick-next:before {
+  color: black;
+}
+
+/*.slice .slick-next {
+  position: absolute !important;
+  top: 50% !important;
+  display: block !important;
+  width: 30px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  background-color: rgb(218, 218, 218) !important;
+}
+.slice .slick-prev {
+  position: absolute !important;
+  top: 50% !important;
+  display: block !important;
+  width: 30px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  background-color: rgb(218, 218, 218) !important;
+}*/
+@media (max-width: 780px) {
+  .slice .image {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}

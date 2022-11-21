@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.offering {
+  background-color: black;
+  color: aliceblue;
+  height: 900px;
+}
+.mem {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 35px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: black;
+}
+.mem div {
+  width: 350px;
+  height: 250px;
+  border-radius: 30px;
+  text-align: center;
+}
+.offering h1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  justify-content: center;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+}
+.view {
+  width: 180px;
+  height: 50px;
+  margin-left: 45%;
+  margin-top: 50px;
+  color: white;
+  border-color: aliceblue;
+  background-color: black;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #cc0000;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 700;
+}
+.con-one img {
+  width: 350px;
+  height: 250px;
+}
+.con-two img {
+  width: 350px;
+  height: 250px;
+}
+.con-three img {
+  width: 350px;
+  height: 250px;
+}
+.con-four img {
+  width: 350px;
+  height: 250px;
+}
+.con-five img {
+  width: 350px;
+  height: 250px;
+}
+.con-six img {
+  width: 350px;
+  height: 250px;
+}
+@media (max-width: 480px) {
+  .mem {
+    display: grid;
+    grid-template-rows: auto;
+  }
+}
+@media (max-width: 780px) {
+  .mem {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+}
